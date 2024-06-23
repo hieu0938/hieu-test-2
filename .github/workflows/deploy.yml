@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build App
-        run: npm run build -- --base=/hieu-test/
+        run: npm run build -- --base=/hieu-test-2/
       - name: Archive artifact
         shell: sh
         run: |
